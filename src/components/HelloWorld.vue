@@ -1,40 +1,16 @@
-<script setup>
-import { ref } from 'vue'
-
-defineProps({
-  msg: String,
-})
-
-const count = ref(0)
-</script>
-
-<template>
-  <h1>{{ msg }}</h1>
-
-  <div class="card">
-    <button type="button" @click="count++">count is {{ count }}</button>
-    <p>
-      Edit
-      <code>components/HelloWorld.vue</code> to test HMR
-    </p>
+<div class="buttons">
+  <button class="btnDup">Duplicate</button>
+  <button id="del">Delete</button>
+  <button class="btnDet">Details</button> 
+  <button class="btnHead">Change Header</button>
+  <button  class="btnBack">Change Background</button>
   </div>
-
-  <p>
-    Check out
-    <a href="https://vuejs.org/guide/quick-start.html#local" target="_blank"
-      >create-vue</a
-    >, the official Vue + Vite starter
-  </p>
-  <p>
-    Install
-    <a href="https://github.com/johnsoncodehk/volar" target="_blank">Volar</a>
-    in your IDE for a better DX
-  </p>
-  <p class="read-the-docs">Click on the Vite and Vue logos to learn more</p>
-</template>
-
-<style scoped>
-.read-the-docs {
-  color: #888;
-}
-</style>
+<div class="borders">
+  <div class="card">
+  <h2>Nick Singleton </h2> 
+<img src=https://www.si.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTkyMjQwNTI1ODcxNDI1MDcw/nicholas-singleton.jpg alt="Nick Singleton" /> 
+  <div>
+    <p class="body" >Star Football Runningback for the Penn State Nittany Lions!<br>Big Ten's Freshman of the Year in 2022</p>
+    </div>
+  </div>
+</div>
